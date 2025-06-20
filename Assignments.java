@@ -7,3 +7,8 @@ for(let i =0 ; i<arr.length ; i++){
     }
 }
 console.log(arr);
+
+//Q2
+let number = 287152;
+let count =number.toString().length ; 
+console.log(count);

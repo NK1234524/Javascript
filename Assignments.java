@@ -28,3 +28,13 @@ for(let i =1 ; i<=n ; i++){
     fact=fact*i;
 }
 console.log(fact);
+
+//Q5
+let array = [1,2,-4,5,8];
+let largest=0;
+for(let i=0 ; i<array.length ; i++){
+    if((array[i]>largest)&&(array[i]>0)){
+        largest = array[i];
+    }
+}
+console.log(largest);

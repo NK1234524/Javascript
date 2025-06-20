@@ -20,3 +20,11 @@ for(let i =0 ; i<number1.length ; i++){
     sum+=parseInt(number1[i]);       
 }
 console.log(sum); 
+
+//Q4
+let n=5;
+let fact = 1;
+for(let i =1 ; i<=n ; i++){
+    fact=fact*i;
+}
+console.log(fact);

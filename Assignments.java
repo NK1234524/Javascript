@@ -12,3 +12,11 @@ console.log(arr);
 let number = 287152;
 let count =number.toString().length ; 
 console.log(count);
+
+//Q3
+let number1 = "287152";
+let sum  =0;
+for(let i =0 ; i<number1.length ; i++){    
+    sum+=parseInt(number1[i]);       
+}
+console.log(sum); 

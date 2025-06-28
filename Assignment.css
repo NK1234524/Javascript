@@ -1,0 +1,8 @@
+button{
+    height: 50px;
+    width: 1000px;
+    border-radius: 2px;    
+    justify-self: center;   
+    margin-right: 400px;    
+    align-items: center;    
+}
